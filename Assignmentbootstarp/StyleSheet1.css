@@ -1,0 +1,142 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+navbar {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+    #flipkart {
+    color: blue;
+    font-size: x-large;
+    background-color: white;
+    cursor: pointer;
+    height: 32px;
+    padding: 5px 40px;
+    font-style: oblique;
+}
+
+#navbardropdown {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    height: 32px;
+    padding: 5px 40px;
+    font-size: larger;
+}
+
+#item {
+    background-color: darkgrey;
+    font-size: larger;
+}
+
+#cart {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    height: 32px;
+    padding: 5px 40px;
+    font-size: larger;
+}
+
+#seller {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    height: 32px;
+    padding: 5px 40px;
+    font-size: larger;
+}
+
+.searchbox {
+    width: 340px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.belowNavBar {
+    display: flex;
+    max-width: 1280px;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smallCard {
+    width: 95px;
+    height: 112px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.card {
+    height: 64px;
+    width: 64px;
+}
+
+
+.smallCard p {
+    text-align: center;
+}
+
+.block {
+    width: 100%;
+}
+
+.itemSection {
+    display: flex;
+    max-width: 1430px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card1 {
+    width: 235px;
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card2 {
+    height: 200px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+.NowText {
+    color: black;
+    padding-top: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-body {
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    color: white;
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    border: none;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+}
